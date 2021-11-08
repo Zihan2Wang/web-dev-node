@@ -1,0 +1,22 @@
+{
+  "name": "web-dev-node",
+  "version": "1.0.0",
+  "description": "A node server for the assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zihan2Wang/web-dev-node.git"
+  },
+  "author": "Zihan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zihan2Wang/web-dev-node/issues"
+  },
+  "homepage": "https://github.com/Zihan2Wang/web-dev-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
