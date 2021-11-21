@@ -32,7 +32,13 @@ module.exports = (app) => {
   app.put('/api/movies/:mid', saveMovie);
   app.delete('/api/movies/:mid', deleteMovie);
   app.get('/api/movies', getAllMovies);
-  app.post('/api/movies', createMovie)
+  app.post('/api/movies', createMovie);
+
+  app.get("/hello/:name", (req, res) => {
+    const name = req.params.name
+    const message = "Hello" + name;
+    res.send(message)
+  })
 };
 
 
