@@ -14,7 +14,6 @@ const updateMovie = (id, movie) =>
 
 
 
-/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 module.exports = {
   findAllMovies, deleteMovie, createMovie, findMovieById, updateMovie
 };
