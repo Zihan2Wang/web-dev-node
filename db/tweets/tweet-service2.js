@@ -7,6 +7,7 @@ module.exports = (app) => {
     const newTweet = {
       "topic": "Web Development",
       "userName": "ReactJS",
+      "posted": Date.now(),
       "verified": false,
       "liked": false,
       "handle": "ReactJS",
